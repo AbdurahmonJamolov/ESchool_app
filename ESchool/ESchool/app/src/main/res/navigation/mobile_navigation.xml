@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="crux.russia.e_school.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <activity
+        android:id="@+id/nav_class_room"
+        android:name="crux.russia.e_school.AdminClassRoomActivity"
+        android:label="Class Room"
+        tools:layout="@layout/activity_admin_class_room" />
+
+    <activity
+        android:id="@+id/nav_edu_mat"
+        android:name="crux.russia.e_school.AdminMaterialsActivity"
+        android:label="Education Materials"
+        tools:layout="@layout/activity_admin_materials" />
+
+    <activity
+        android:id="@+id/nav_mat_cont"
+        android:name="crux.russia.e_school.AdminContentActivity"
+        android:label="Materials Content"
+        tools:layout="@layout/activity_admin_content" />
+
+    <activity
+        android:id="@+id/nav_exam"
+        android:name="crux.russia.e_school.AdminExamActivity"
+        android:label="Exam"
+        tools:layout="@layout/activity_user_exam" />
+
+    <activity
+        android:id="@+id/nav_question"
+        android:name="crux.russia.e_school.AdminQuestionActivity"
+        android:label="Question"
+        tools:layout="@layout/activity_admin_question" />
+</navigation>

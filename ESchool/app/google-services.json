@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "850853661209",
+    "project_id": "e-schoole-1624d",
+    "storage_bucket": "e-schoole-1624d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850853661209:android:fabe8c77e78a6f6da03888",
+        "android_client_info": {
+          "package_name": "crux.russia.e_school"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "850853661209-knvros2ule6775lcinaec3e4t3783c34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZtpHtGC0_92L7i7Uef7GlzZK3cp7r1Vk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "850853661209-knvros2ule6775lcinaec3e4t3783c34.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
